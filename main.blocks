@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Lu(4[4eNGrdej^carcdc">spaceship</variable><variable type="KIND_SpriteKind" id="Jc`dLr83,JWH}:d2R/f}">Player</variable><variable type="KIND_SpriteKind" id="I,84T;i.x.[Hj.}}/4VG">Projectile</variable><variable type="KIND_SpriteKind" id="zCSmDc5Wk.=bBKhhp5Tv">Food</variable><variable type="KIND_SpriteKind" id="?yJe]B+[,l]HOb}Ht|ky">Enemy</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="hudsetScore"><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow></value><next><block type="hudSetLife"><value name="value"><shadow type="math_number"><field name="NUM">3</field></shadow></value><next><block type="variables_set"><field name="VAR" id="Lu(4[4eNGrdej^carcdc">spaceship</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . 8 8 8 8 8 8 2 . . . . . . . 
+. . 8 5 8 . . . . . . . . . . . 
+. . 8 5 5 8 . . . . . . . . . . 
+. . 8 5 5 5 8 . . . . . . . . . 
+. . 8 5 5 5 5 8 . . . . . . . . 
+. . 8 5 5 5 5 5 8 . . . . . . . 
+. . 8 8 8 8 8 8 8 8 2 . . . . . 
+. . 8 5 5 5 5 5 8 . . . . . . . 
+. . 8 5 5 5 5 8 . . . . . . . . 
+. . 8 5 5 5 8 . . . . . . . . . 
+. . 8 5 5 8 . . . . . . . . . . 
+. . 8 5 8 . . . . . . . . . . . 
+. . 8 8 8 8 8 8 2 . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block></xml>
